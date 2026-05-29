@@ -13,8 +13,8 @@
   "email": "bandaachiraf40@gmail.com",
   "phone": "+2290195763682",
   "whatsapp": "+2290195763682",
-  "avatar": "public/profile.png",
-  "cv": "public/resume.pdf",
+  "avatar": "/profile.png",
+  "cv": "/resume.pdf",
   "social": {
     "github": "https://github.com/BANDAAchiraf",
     "linkedin": "https://www.linkedin.com/in/achirafou-banda-ousmane-ba8151188/"
