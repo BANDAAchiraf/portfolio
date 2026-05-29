@@ -1,0 +1,72 @@
+{
+  "categories": [
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "icon": "Monitor",
+      "color": "#00d4ff",
+      "skills": [
+        { "name": "HTML5 / CSS3", "level": 90 },
+        { "name": "JavaScript (ES6+)", "level": 85 },
+        { "name": "React.js", "level": 78 },
+        { "name": "Tailwind CSS", "level": 82 },
+        { "name": "Bootstrap", "level": 88 },
+        { "name": "WordPress", "level": 85 }
+      ]
+    },
+    {
+      "id": "backend",
+      "label": "Backend",
+      "icon": "Server",
+      "color": "#b94dff",
+      "skills": [
+        { "name": "PHP / Symfony", "level": 88 },
+        { "name": "Yii2 Framework", "level": 82 },
+        { "name": "Python", "level": 70 },
+        { "name": "Node.js", "level": 68 },
+        { "name": "Odoo (ERP)", "level": 75 },
+        { "name": "REST API", "level": 85 }
+      ]
+    },
+    {
+      "id": "databases",
+      "label": "Bases de données",
+      "icon": "Database",
+      "color": "#00ffea",
+      "skills": [
+        { "name": "MySQL / MariaDB", "level": 88 },
+        { "name": "PostgreSQL", "level": 80 },
+        { "name": "MongoDB", "level": 75 },
+        { "name": "Redis", "level": 65 },
+        { "name": "SQLite", "level": 82 }
+      ]
+    },
+    {
+      "id": "devops",
+      "label": "DevOps",
+      "icon": "GitBranch",
+      "color": "#f59e0b",
+      "skills": [
+        { "name": "Docker / Docker Compose", "level": 85 },
+        { "name": "Git / GitHub / GitLab", "level": 90 },
+        { "name": "CI/CD (GitHub Actions)", "level": 75 },
+        { "name": "Nginx / Apache", "level": 82 },
+        { "name": "SSL / Let's Encrypt", "level": 80 }
+      ]
+    },
+    {
+      "id": "sysnet",
+      "label": "Systèmes & Réseaux",
+      "icon": "Network",
+      "color": "#10b981",
+      "skills": [
+        { "name": "Linux (Debian/Ubuntu/CentOS)", "level": 88 },
+        { "name": "Administration réseau", "level": 82 },
+        { "name": "TCP/IP / DNS / DHCP", "level": 80 },
+        { "name": "VPN / Firewall", "level": 75 },
+        { "name": "Bash Scripting", "level": 78 },
+        { "name": "Virtualisation (KVM/VMware)", "level": 72 }
+      ]
+    }
+  ]
+}

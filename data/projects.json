@@ -1,0 +1,71 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Symfony",
+      "description": "Plateforme e-commerce complète développée avec Symfony 6, intégrant paiement mobile money, gestion des stocks et tableau de bord admin.",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80",
+      "technologies": ["Symfony", "PHP", "MySQL", "Twig", "Bootstrap", "Docker"],
+      "category": "backend",
+      "github": "https://github.com/banda-achirafou/ecommerce-symfony",
+      "demo": "https://demo.example.com"
+    },
+    {
+      "id": 2,
+      "title": "Infrastructure Docker",
+      "description": "Déploiement d'une infrastructure microservices avec Docker Compose, reverse proxy Nginx, SSL automatique et monitoring Grafana/Prometheus.",
+      "image": "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=600&q=80",
+      "technologies": ["Docker", "Nginx", "Linux", "Grafana", "Prometheus", "Bash"],
+      "category": "devops",
+      "github": "https://github.com/banda-achirafou/docker-infra",
+      "demo": null
+    },
+    {
+      "id": 3,
+      "title": "ERP Odoo Personnalisé",
+      "description": "Développement de modules Odoo sur mesure pour une entreprise de distribution au Bénin. Gestion commerciale, comptabilité et RH intégrées.",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=80",
+      "technologies": ["Odoo", "Python", "PostgreSQL", "JavaScript", "XML"],
+      "category": "backend",
+      "github": "https://github.com/banda-achirafou/odoo-custom",
+      "demo": "https://demo.example.com"
+    },
+    {
+      "id": 4,
+      "title": "Application Yii2 SaaS",
+      "description": "Application multi-tenant de gestion scolaire avec Yii2. Gestion des élèves, notes, emplois du temps et communications parents-enseignants.",
+      "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80",
+      "technologies": ["Yii2", "PHP", "MySQL", "jQuery", "Bootstrap", "REST API"],
+      "category": "backend",
+      "github": "https://github.com/banda-achirafou/yii2-school",
+      "demo": "https://demo.example.com"
+    },
+    {
+      "id": 5,
+      "title": "Dashboard React Analytics",
+      "description": "Tableau de bord analytics responsive avec React et recharts. Visualisation de données en temps réel, filtres dynamiques et exports PDF.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80",
+      "technologies": ["React", "Tailwind CSS", "Node.js", "MongoDB", "Chart.js"],
+      "category": "frontend",
+      "github": "https://github.com/banda-achirafou/react-dashboard",
+      "demo": "https://demo.example.com"
+    },
+    {
+      "id": 6,
+      "title": "Réseau d'Entreprise",
+      "description": "Conception et déploiement d'une infrastructure réseau complète pour PME : VLANs, VPN site-à-site, firewall pfSense et monitoring réseau.",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
+      "technologies": ["pfSense", "Linux", "Cisco", "VPN", "VLAN", "Nagios"],
+      "category": "network",
+      "github": "https://github.com/banda-achirafou/network-enterprise",
+      "demo": null
+    }
+  ],
+  "categories": [
+    { "id": "all", "label": "Tous" },
+    { "id": "frontend", "label": "Frontend" },
+    { "id": "backend", "label": "Backend" },
+    { "id": "devops", "label": "DevOps" },
+    { "id": "network", "label": "Réseaux" }
+  ]
+}

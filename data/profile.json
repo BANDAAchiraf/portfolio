@@ -1,0 +1,58 @@
+{
+  "name": "BANDA Achirafou",
+  "title": "Développeur Fullstack",
+  "roles": [
+    "Développeur Fullstack",
+    "Administrateur Systèmes & Réseaux",
+    "Ingénieur DevOps",
+    "Expert Linux & Docker",
+    "Architecte Web"
+  ],
+  "bio": "Passionné par les technologies web et les infrastructures systèmes, je conçois des solutions robustes alliant développement fullstack et administration de réseaux. Basé au Bénin, j'accompagne entreprises et startups dans leur transformation numérique.",
+  "location": "Cotonou, Bénin 🇧🇯",
+  "email": "banda.achirafou@gmail.com",
+  "phone": "+229 01 XX XX XX XX",
+  "whatsapp": "+22901XXXXXXXX",
+  "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=banda&backgroundColor=0f1e3a&skinColor=ae5d29",
+  "cv": "/cv-banda-achirafou.pdf",
+  "social": {
+    "github": "https://github.com/banda-achirafou",
+    "linkedin": "https://linkedin.com/in/banda-achirafou",
+    "twitter": "https://twitter.com/banda_achirafou"
+  },
+  "about": {
+    "presentation": "Je suis **BANDA Achirafou**, développeur fullstack et administrateur systèmes & réseaux avec plus de **3 ans d'expérience** dans la conception et le déploiement de solutions web robustes.\n\nMon expertise couvre un large spectre : du développement frontend/backend avec **Symfony**, **Yii2** et des technologies modernes, à l'administration d'infrastructures Linux, en passant par la containerisation avec **Docker** et les pratiques **DevOps**.\n\nJe suis passionné par l'open-source et convaincu que la technologie doit servir le développement de l'Afrique.",
+    "experiences": [
+      {
+        "title": "Développeur Fullstack Senior",
+        "company": "Freelance",
+        "period": "2022 - Présent",
+        "description": "Développement d'applications web sur mesure avec Symfony, Yii2, WordPress et Odoo. Déploiement et maintenance d'infrastructures Linux."
+      },
+      {
+        "title": "Administrateur Systèmes & Réseaux",
+        "company": "Entreprise Bénin",
+        "period": "2021 - 2022",
+        "description": "Administration de serveurs Linux, configuration réseau, mise en place de solutions de virtualisation et de conteneurisation Docker."
+      },
+      {
+        "title": "Développeur Web Junior",
+        "company": "Startup Tech",
+        "period": "2020 - 2021",
+        "description": "Développement d'applications web PHP/MySQL, intégration HTML/CSS/JS, maintenance et support technique."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Informatique",
+        "school": "Université d'Abomey-Calavi",
+        "period": "2018 - 2021"
+      }
+    ]
+  },
+  "emailjs": {
+    "serviceId": "YOUR_EMAILJS_SERVICE_ID",
+    "templateId": "YOUR_EMAILJS_TEMPLATE_ID",
+    "publicKey": "YOUR_EMAILJS_PUBLIC_KEY"
+  }
+}

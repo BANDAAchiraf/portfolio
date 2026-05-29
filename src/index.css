@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Sora', sans-serif;
+  }
+
+  body {
+    background-color: #030712;
+    color: #f1f5f9;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #060d1f;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #00d4ff, #b94dff);
+    border-radius: 3px;
+  }
+
+  ::selection {
+    background: rgba(0, 212, 255, 0.3);
+    color: #fff;
+  }
+}
+
+@layer components {
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+    background-size: 64px 64px;
+  }
+
+  .glow-text {
+    text-shadow: 0 0 20px rgba(0, 212, 255, 0.6), 0 0 40px rgba(0, 212, 255, 0.3);
+  }
+
+  .glow-purple {
+    text-shadow: 0 0 20px rgba(185, 77, 255, 0.6), 0 0 40px rgba(185, 77, 255, 0.3);
+  }
+
+  .card-glass {
+    background: rgba(10, 20, 40, 0.7);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(0, 212, 255, 0.1);
+  }
+
+  .card-glass:hover {
+    border-color: rgba(0, 212, 255, 0.3);
+    box-shadow: 0 16px 48px rgba(0, 212, 255, 0.1);
+  }
+
+  .btn-primary {
+    @apply relative px-6 py-3 font-mono font-semibold text-sm tracking-wider uppercase
+           bg-transparent border border-neon-blue text-neon-blue
+           transition-all duration-300 hover:bg-neon-blue hover:text-midnight-950
+           hover:shadow-neon-blue overflow-hidden;
+  }
+
+  .btn-secondary {
+    @apply relative px-6 py-3 font-mono font-semibold text-sm tracking-wider uppercase
+           bg-transparent border border-neon-purple text-neon-purple
+           transition-all duration-300 hover:bg-neon-purple hover:text-white
+           hover:shadow-neon-purple overflow-hidden;
+  }
+
+  .section-title {
+    @apply font-display text-3xl md:text-4xl font-bold tracking-wider;
+  }
+
+  .nav-link {
+    @apply relative text-slate-400 hover:text-neon-blue transition-colors duration-200
+           font-mono text-sm tracking-wider uppercase;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-px bg-neon-blue transition-all duration-300;
+  }
+
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    @apply w-full;
+  }
+
+  .skill-bar {
+    @apply h-1.5 rounded-full overflow-hidden bg-midnight-800;
+  }
+
+  .skill-bar-fill {
+    @apply h-full rounded-full transition-all duration-1000;
+    background: linear-gradient(90deg, #00d4ff, #b94dff);
+  }
+
+  .tag {
+    @apply px-2.5 py-1 text-xs font-mono rounded border;
+  }
+
+  .scanline-effect::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.08), transparent);
+    animation: scanline 8s linear infinite;
+    pointer-events: none;
+    z-index: 9999;
+  }
+}
+
+@layer utilities {
+  .text-gradient-blue {
+    background: linear-gradient(135deg, #00d4ff, #0ea5e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-purple {
+    background: linear-gradient(135deg, #b94dff, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-mixed {
+    background: linear-gradient(135deg, #00d4ff 0%, #b94dff 50%, #00ffea 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+/* Typing cursor animation */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* Noise texture overlay */
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.02;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}

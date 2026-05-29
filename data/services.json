@@ -1,0 +1,88 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "icon": "Code2",
+      "title": "Développement Web",
+      "color": "#00d4ff",
+      "description": "Conception et développement d'applications web sur mesure avec les technologies modernes. Sites vitrine, e-commerce, SaaS, ERP.",
+      "features": [
+        "Applications Symfony & Yii2",
+        "Sites WordPress & Woocommerce",
+        "Intégrations Odoo / ERP",
+        "APIs REST & GraphQL",
+        "Frontend React / Vue.js"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "Network",
+      "title": "Administration Réseau",
+      "color": "#b94dff",
+      "description": "Conception, déploiement et maintenance d'infrastructures réseau sécurisées pour entreprises de toutes tailles.",
+      "features": [
+        "Configuration routeurs & switches",
+        "VPN site-à-site & accès distant",
+        "Firewall & sécurité réseau",
+        "VLANs & segmentation",
+        "Monitoring & supervision"
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "Wrench",
+      "title": "Maintenance Informatique",
+      "color": "#00ffea",
+      "description": "Support technique, dépannage et maintenance préventive de votre parc informatique pour assurer la continuité de vos activités.",
+      "features": [
+        "Diagnostic & réparation",
+        "Maintenance préventive",
+        "Sauvegarde & restauration",
+        "Support utilisateurs",
+        "Audit de sécurité"
+      ]
+    },
+    {
+      "id": 4,
+      "icon": "Terminal",
+      "title": "Installation Linux",
+      "color": "#10b981",
+      "description": "Installation, configuration et optimisation de serveurs Linux pour hébergement web, bases de données et services d'entreprise.",
+      "features": [
+        "Debian / Ubuntu Server",
+        "CentOS / Rocky Linux",
+        "Configuration LAMP/LEMP",
+        "Optimisation performances",
+        "Scripts d'automatisation Bash"
+      ]
+    },
+    {
+      "id": 5,
+      "icon": "Container",
+      "title": "Docker & DevOps",
+      "color": "#f59e0b",
+      "description": "Containerisation de vos applications et mise en place de pipelines CI/CD pour un déploiement automatisé et fiable.",
+      "features": [
+        "Dockerisation d'applications",
+        "Docker Compose & orchestration",
+        "Pipelines GitHub Actions / GitLab CI",
+        "Reverse proxy Nginx",
+        "SSL & certificats Let's Encrypt"
+      ]
+    },
+    {
+      "id": 6,
+      "icon": "Globe",
+      "title": "Hébergement & VPS",
+      "color": "#ef4444",
+      "description": "Configuration et gestion de serveurs VPS, hébergement de sites et applications web avec haute disponibilité.",
+      "features": [
+        "Configuration VPS",
+        "Hébergement multi-sites",
+        "Gestion domaines & DNS",
+        "Monitoring & alertes",
+        "Backups automatisés"
+      ]
+    }
+  ]
+}
